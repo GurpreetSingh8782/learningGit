@@ -22,4 +22,16 @@ It means that changes can be done in those files that are not managed by git yet
 11.`git restore --staged <file>`:-it removes file from staging area to working area.This only works if changes are in your staging area.
 
 12.Diff between git rm and git restore
-ans:If you want to move the whole file back to the Untracked state, then we do git rm,otherwise if we just want the changes from working area to staging area and vice-versa then we use git restore 
+ans:If you want to move the whole file back to the Untracked state, then we do git rm,otherwise if we just want the changes from working area to staging area and vice-versa then we use git restore   
+
+13.`git remote`:- list down all the remote connection names
+
+14.Remote connection:- It helps you to link two git repositories for uploading and downloading changes from each others.
+
+15.`git remote add <name of the remote> <link of the remote>`:- this command helps us to add a new link to the remote repo and give name to it
+
+16.`git remote rm <name of the remote`:- this command deletes a remote connection
+
+17.`git remote rename <oldname> <newname>`: this command renames the remote connection
+
+Note:The name of the remote connection is always used to establish communication between repos.
