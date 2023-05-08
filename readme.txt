@@ -17,4 +17,7 @@ It means that changes can be done in those files that are not managed by git yet
 
 9.`git log`:- lists down all the commit in the repository.if you want to exit out of git log just enter 'q'
 
-10.`git restore <file>`:-it remove all files changes from the staging area to be commited. This can be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore it or you can restore last clean version of the file
+10.`git restore <file>`:-it remove all files changes from the staging area to be commited. This can be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore it or you can restore last clean version of the file 
+
+11.`git restore --staged <file>`:-it removes file from staging area to working area.This only works if changes are in your staging area.
+
