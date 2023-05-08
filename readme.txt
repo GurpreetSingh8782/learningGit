@@ -21,3 +21,5 @@ It means that changes can be done in those files that are not managed by git yet
 
 11.`git restore --staged <file>`:-it removes file from staging area to working area.This only works if changes are in your staging area.
 
+12.Diff between git rm and git restore
+ans:If you want to move the whole file back to the Untracked state, then we do git rm,otherwise if we just want the changes from working area to staging area and vice-versa then we use git restore 
